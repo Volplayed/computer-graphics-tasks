@@ -50,3 +50,7 @@ plot_with_compute_y(c, c2_div_4, "Випадок 1: p = c^2 / 4")
 plot_with_compute_y(c, c2_div_4 / 2, "Випадок 2: p < c^2 / 4")
 plot_with_compute_y(c, (c2_div_4 + c2_div_2) / 2, "Випадок 3: c^2 / 4 < p < c^2 / 2")
 plot_with_compute_y(c, c2_div_2, "Випадок 4: p > c^2 / 4")
+
+a = int(input("Your p: "))
+c_new = int(input("Your c: "))
+plot_with_compute_y(c_new, a, f"Випадок 5: p = {a}")
